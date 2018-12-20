@@ -1,64 +1,63 @@
-body{
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
-    opacity: 0.9;
-    background-image: url(http://i0.wp.com/thewallpaper.co/wp-content/uploads/2016/10/3D-hd-wallpaper-desktop-wallpapers-high-definition-colourful-background-photos-best-windows-display-picture-1920x1080.jpg);
-    background-attachment: scroll;
-  }
-  h1{
-  font-family: 'Fruktur', cursive;
+body {
+  font-family: "calibri", cursive;
+  font-size: 30px;
+  opacity: 0.9;
+  background-image: url(https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-attachment: scroll;
+}
+h1 {
+  font-family: "calibri", cursive;
+  color: teal;
+  font-size: 40px;
+  text-decoration: underline;
+}
+#quiz {
+  background: grey;
+  padding: 20px 30px 20px 30px;
+  width: 600px;
+  border-radius: 20px;
+}
+input {
+  margin-bottom: 20px;
+}
+#button {
+  background: teal;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  transition-duration: 0.5s;
+  margin-top: 15px;
+}
+#button {
+  background: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  transition-duration: 5s;
+  margin-top: 15px;
+  font-size: 30px;
+}
+#button:hover {
+  background: white;
+  border: 1px solid green;
   color: black;
-  font-size: 50px;
-  text-decoration: overline;
-  }
-  #quiz {
-    background: grey;
-    padding: 20px 30px 20px 30px;
-    width: 600px;
-    border-radius: 20px;
-  
-  }
-  input {
-    margin-bottom: 20px;
-  
-  }
-  #button {
-    background: green;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    color: white;
-    transition-duration: .5s;
-    margin-top: 15px;
-  #button {
-    background: green;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    color: white;
-    transition-duration: 5s;
-    margin-top: 15px;
-    font-size: 30px;
-  }
-  #button:hover{
-    background: white;
-    border: 1px solid green;
-    color: black;
-    color: black;
-    cursor: pointer;
-  }
-  #after_submit{
-    visibility: hidden;
-    background: #ff5459;
-    padding: 10px 20px 10px 20px;
-    width: 400px;
-    border-radius: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-  #mc {
-    display: inline-block;
-  }
-  #number_count{
-    display: none;
-  }
+  color: black;
+  cursor: pointer;
+}
+#after_submit {
+  visibility: hidden;
+  background: teal;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+#mc {
+  display: inline-block;
+}
+#number_count {
+  display: none;
+}

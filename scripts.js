@@ -9,41 +9,46 @@ function check() {
   var questionEight = document.quiz.questionEight.value;
   var questionNine = document.quiz.questionNine.value;
   var questionTen = document.quiz.questionTen.value;
+  var questionEleven = document.quiz.questionEleven.value;
   var count = 0;
 
   if (questionOne == "2") {
-    count += 20;
+    count += 5;
   }
   if (questionTwo == "2") {
-    count += 20;
+    count += 5;
   }
   if (questionThree == "3") {
-    count += 20;
+    count += 5;
   }
   if (questionFour == "3") {
-    count += 20;
+    count += 5;
   }
   if (questionFive == "4") {
-    count += 20;
+    count += 5;
   }
   if (questionSix == "2") {
-    count += 20;
+    count += 5;
   }
   if (questionSeven == "2") {
-    count += 20;
+    count += 5;
   }
   if (questionEight == "3") {
-    count += 20;
+    count += 5;
   }
   if (questionNine == "2") {
-    count += 20;
+    count += 5;
   }
   if (questionTen == "4") {
-    count += 20;
+    count += 5;
+  }
+  if (questionEleven == "1" || questionEleven == "3") {
+    count += 5;
   }
   document.getElementById("after_submit").style.visibility = "visible";
 
-  document.getElementById("number_count").innerHTML = "You got " + count + "%.";
+  document.getElementById("number_count").innerHTML =
+    "You got " + count + "/50";
 
   $("#button").hide();
   $("#quiz").hide();
