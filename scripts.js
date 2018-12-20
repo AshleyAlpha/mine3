@@ -18,6 +18,9 @@ function check() {
   if (question4 == "c") {
     count += 20;
   }
+  if (question5 == "c") {
+    count += 20;
+  }
   document.getElementById("after_submit").style.visibility = "visible";
 
   document.getElementById("number_count").innerHTML = "You got " + count + "%.";
