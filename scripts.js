@@ -1,24 +1,44 @@
 function check() {
-  var question1 = document.quiz.question1.value;
-  var question2 = document.quiz.question2.value;
-  var question3 = document.quiz.question3.value;
-  var question4 = document.quiz.question4.value;
-  var question5 = document.quiz.question4.value;
+  var questionOne = document.quiz.questionOne.value;
+  var questionTwo = document.quiz.questionTwo.value;
+  var questionThree = document.quiz.questionThree.value;
+  var questionFour = document.quiz.questionFour.value;
+  var questionFive = document.quiz.questionFive.value;
+  var questionSix = document.quiz.questionSix.value;
+  var questionSeven = document.quiz.questionSeven.value;
+  var questionEight = document.quiz.questionEight.value;
+  var questionNine = document.quiz.questionNine.value;
+  var questionTen = document.quiz.questionTen.value;
   var count = 0;
 
-  if (question1 == "c") {
+  if (questionOne == "2") {
     count += 20;
   }
-  if (question2 == "c") {
+  if (questionTwo == "2") {
     count += 20;
   }
-  if (question3 == "b") {
+  if (questionThree == "3") {
     count += 20;
   }
-  if (question4 == "c") {
+  if (questionFour == "3") {
     count += 20;
   }
-  if (question5 == "c") {
+  if (questionFive == "4") {
+    count += 20;
+  }
+  if (questionSix == "2") {
+    count += 20;
+  }
+  if (questionSeven == "2") {
+    count += 20;
+  }
+  if (questionEight == "3") {
+    count += 20;
+  }
+  if (questionNine == "2") {
+    count += 20;
+  }
+  if (questionTen == "4") {
     count += 20;
   }
   document.getElementById("after_submit").style.visibility = "visible";
