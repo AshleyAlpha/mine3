@@ -11,25 +11,31 @@
         crossorigin="anonymous"></script>
       <script src="../js/scripts.js"></script>
     </head>
-    <div class="container">
     <body>
+     
+     <div class="container">
+     <div class="jumbotron">
      <h1>QUIZ BOARD</h1>
+     <p>This is an online final year QUIZ!</p>
      <form id="quiz" name="quiz">
-         <p>what is the capital of Rwanda?</p>
-         <input id="text" type="text" name="question1">
+     <h1>QUIZ BOARD<br><br></h1>
 
-         <p>what does HTML stands for?</p>
-         <input type="radio" id="mc" name="question2" value="Home Tool Markup Language">Home Tool Markup Language<br>
-         <input type="radio" id="mc" name="question2" value="Hyper Text Markup Language">Hyper Text Markup Language<br>
-         <input type="radio" id="mc" name="question2" value="Hyperlinks and Text Markup Language">Hyperlinks and Text Markup Language<br>
+         Q1.what does HTML stands for? <br>
+         <input type="radio" id="mc" name="question1" value="1">Home Tool Markup Language<br>
+         <input type="radio" id="mc" name="question1" value="2">Hyper Text Markup Language<br>
+         <input type="radio" id="mc" name="question1" value="3">Hyperlinks and Text Markup Language<br>
 
-         <p>Who is making the Web standards?</p>
-         <input type="radio" id="mc" name="question3" value="The World Wide Web Consortium">The World Wide Web Consortium<br>
-         <input type="radio" id="mc" name="question3" value="Microsoft">microsoft<br>
-         <input type="radio" id="mc" name="question3" value="Mozilla">mozilla<br>
-         <input type="radio" id="mc" name="question3" value="Google">Google<br>
-         <input id="button" type="button" name="am done" onclick="check();">
+         Q2. Who is making the Web standards?<br>
+         <input type="radio" id="mc" name="question2" value="1">The World Wide Web Consortium<br>
+         <input type="radio" id="mc" name="question2" value="2">microsoft<br>
+         <input type="radio" id="mc" name="question2" value="3">mozilla<br>
+         <input type="radio" id="mc" name="question2" value="4">Google<br>
+         <input id="button" type="button" name="am done!" onclick="check()">
          </form>
+         <div id="after_submit">
+             <p id="number_count"></p>
+        </div>
+        </div>
         </div>
     </body>
     </html
