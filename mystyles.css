@@ -1,6 +1,6 @@
 body {
   font-family: "calibri", cursive;
-  font-size: 30px;
+  font-size: 20px;
   opacity: 0.9;
   background-image: url(https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-attachment: scroll;
@@ -12,7 +12,7 @@ h1 {
   text-decoration: underline;
 }
 #quiz {
-  background: grey;
+  background: aquamarine;
   padding: 20px 30px 20px 30px;
   width: 600px;
   border-radius: 20px;
@@ -21,30 +21,23 @@ input {
   margin-bottom: 20px;
 }
 #button {
-  background: teal;
+  background: white;
   border: none;
   border-radius: 5px;
   padding: 20px;
-  color: white;
+  color: black;
   transition-duration: 0.5s;
   margin-top: 15px;
 }
 #button {
-  background: green;
+  background: white;
   border: none;
   border-radius: 5px;
   padding: 10px;
-  color: white;
+  color: black;
   transition-duration: 5s;
   margin-top: 15px;
   font-size: 30px;
-}
-#button:hover {
-  background: white;
-  border: 1px solid green;
-  color: black;
-  color: black;
-  cursor: pointer;
 }
 #after_submit {
   visibility: hidden;
