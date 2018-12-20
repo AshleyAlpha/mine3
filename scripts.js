@@ -42,7 +42,7 @@ function check() {
   if (questionTen == "4") {
     count += 5;
   }
-  if (questionEleven == "1" || questionEleven == "3") {
+  if (questionEleven == "1" && questionEleven == "3") {
     count += 5;
   }
   document.getElementById("after_submit").style.visibility = "visible";
