@@ -1,6 +1,6 @@
 # QUIZ-BOARD
 
-#AUTHOR: Alpha MBABAZI
+# AUTHOR: Alpha MBABAZI
 
 # DESCRIPTION
 
@@ -21,9 +21,10 @@ This is a program called quiz-board. it just contains a multiple choice javascri
 
 # BDD(Behavior Driven Development)
 
-## #It determine the wrong and right answers and count your marks.
+# It determine the wrong and right answers and count your marks.
 
-|Example input:| wrong answer among listed then Example output: |you get 0 out of set marks. |
+|-------------:|----------------------------------------------:|-------------------------------|
+|Example input:| wrong answer among listed then Example output:|you get 0 out of set marks. |
 |example input:|right answer among listed then Example output: |earned marks out of set marks. |
 
 ---
