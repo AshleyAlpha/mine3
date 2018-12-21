@@ -1,4 +1,6 @@
+
 function check() {
+
   var questionOne = document.quiz.questionOne.value;
   var questionTwo = document.quiz.questionTwo.value;
   var questionThree = document.quiz.questionThree.value;
@@ -61,13 +63,12 @@ function check() {
   if (questionFifteen == "4") {
     count += 4;
   }
-
   document.getElementById("after_submit").style.visibility = "visible";
 
   document.getElementById("number_count").innerHTML =
     "Your score is: " + count + "/60";
 
-  $(document).ready(function() {
+  $(document).ready(function () {
     $("#button").hide();
     $("#quiz").hide();
     $("#number_count").show();
