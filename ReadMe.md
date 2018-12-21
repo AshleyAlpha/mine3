@@ -4,7 +4,7 @@
 
 # DESCRIPTION
 
-This is a program called quiz-board. it just contains a multiple choice javascripts questions that i've created to test the knowledge of a student about java. it will also be used in programming schools.
+This is a program called quiz-board. it just contains a multiple choice javascripts questions that i've created to test the knowledge of a student about java. it will also be used in programming schools. Here is a link to my GitHub: https://github.com/AshleyAlpha/mine3
 
 # Program Guidance
 
