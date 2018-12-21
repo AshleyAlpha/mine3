@@ -1,120 +1,149 @@
 <DOCTYPE html>
   <html>
-    <head>
-      <meta charset="utf-8">
-      <title>QUIZ-BOARD</title>
-      
-      <link href="bootstrap.css" rel="stylesheet" type="text/css" />
-      <link href="mystyles.css" rel="stylesheet" type="text/css" />
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-      <script type="text/javascript" src="scripts.js"></script>
-    </head>
-    <body>
-     
-     <div class="container">
-     <div class="jumbotron">
-     <h1>QUIZ BOARD</h1>
-     <p><em>This is an online javascript QUIZ</em><strong>/60pts</strong></p>
-     <form id="quiz" name="quiz">
-        <div class="row">
-        <div class="col-md-6">
-         <strong>Q1.what does HTML stands for?</strong> <br>
-         <input type="radio" id="mc" name="questionOne" value="1">Home Tool Markup Language<br>
-         <input type="radio" id="mc" name="questionOne" value="2">Hyper Text Markup Language<br>
-         <input type="radio" id="mc" name="questionOne" value="3">Hyperlinks and Text Markup Language<br>
 
-         <strong>Q2. Who is making the Web standards?</strong><br>
-         <input type="radio" id="mc" name="questionTwo" value="1">The World Wide Web Consortium<br>
-         <input type="radio" id="mc" name="questionTwo" value="2">microsoft<br>
-         <input type="radio" id="mc" name="questionTwo" value="3">mozilla<br>
-         <input type="radio" id="mc" name="questionTwo" value="4">Google<br>
+  <head>
+    <meta charset="utf-8" />
+    <title>QUIZ-BOARD</title>
 
-         <strong>Q3. Which character is used to indicate an end tag:</strong><br>
-         <input type="radio" id="mc" name="questionThree" value="1">*<br>
-         <input type="radio" id="mc" name="questionThree" value="2">\<br>
-         <input type="radio" id="mc" name="questionThree" value="3">/<br>
-         <input type="radio" id="mc" name="questionThree" value="4">^<br>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="mystyles.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
 
-         <strong>Q4. Which HTML attribute is used to define inline styles?</strong><br>
-         <input type="radio" id="mc" name="questionFour" value="1">styles<br>
-         <input type="radio" id="mc" name="questionFour" value="2">font<br>
-         <input type="radio" id="mc" name="questionFour" value="3">style<br>
-         <input type="radio" id="mc" name="questionFour" value="4">class<br>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>QUIZ-BOARD</h1>
+        <p>
+          <em>This is an online javascript QUIZ</em><strong> ..../60pts</strong>
+        </p>
+        <form id="quiz" name="quiz">
+          <div class="row">
+            <div class="col-md-6">
+              <strong>Q1.what does HTML stands for?</strong> <br />
+              <input type="radio" id="mc" name="questionOne" value="1" />Home
+              Tool Markup Language<br />
+              <input type="radio" id="mc" name="questionOne" value="2" />Hyper
+              Text Markup Language<br />
+              <input type="radio" id="mc" name="questionOne" value="3" />Hyperlinks and Text Markup Language<br />
 
-        <strong>Q5. How do you insert a comment in a CSS file?</strong><br>
-          <input type="radio" id="mc" name="questionFive" value="1">' this is a comment<br>
-         <input type="radio" id="mc" name="questionFive" value="2">// this is a comment //<br>
-         <input type="radio" id="mc" name="questionFive" value="3">// this is a comment<br>
-         <input type="radio" id="mc" name="questionFive" value="4">/* this is a comment */<br>
+              <strong>Q2. Who is making the Web standards?</strong><br />
+              <input type="radio" id="mc" name="questionTwo" value="1" />The
+              World Wide Web Consortium<br />
+              <input type="radio" id="mc" name="questionTwo" value="2" />microsoft<br />
+              <input type="radio" id="mc" name="questionTwo" value="3" />mozilla<br />
+              <input type="radio" id="mc" name="questionTwo" value="4" />Google<br />
 
-         <strong>Q6.  Which property is used to change the background color?</strong><br>
-          <input type="radio" id="mc" name="questionSix" value="1">color<br>
-         <input type="radio" id="mc" name="questionSix" value="2"> background-color<br>
-         <input type="radio" id="mc" name="questionSix" value="3">bgcolor<br>
+              <strong>Q3. Which character is used to indicate an end tag:</strong><br />
+              <input type="radio" id="mc" name="questionThree" value="1" />*<br />
+              <input type="radio" id="mc" name="questionThree" value="2" />\<br />
+              <input type="radio" id="mc" name="questionThree" value="3" />/<br />
+              <input type="radio" id="mc" name="questionThree" value="4" />^<br />
 
-         <strong>Q7.  Which CSS property is used to change the text color of an element?</strong><br>
-          <input type="radio" id="mc" name="questionSeven" value="1">fgcolor<br>
-         <input type="radio" id="mc" name="questionSeven" value="2">text-color //<br>
-         <input type="radio" id="mc" name="questionSeven" value="3">color<br>
+              <strong>Q4. Which HTML attribute is used to define inline
+                styles?</strong><br />
+              <input type="radio" id="mc" name="questionFour" value="1" />styles<br />
+              <input type="radio" id="mc" name="questionFour" value="2" />font<br />
+              <input type="radio" id="mc" name="questionFour" value="3" />style<br />
+              <input type="radio" id="mc" name="questionFour" value="4" />class<br />
 
-         <strong>Q8. How do you write "Hello World" in an alert box?</strong><br>
-         <input type="radio" id="mc" name="questionEight" value="1">alertBox("Hello World");<br>
-         <input type="radio" id="mc" name="questionEight" value="2">msg("Hello World");<br>
-         <input type="radio" id="mc" name="questionEight" value="3">alert("Hello World");<br>
-         <input type="radio" id="mc" name="questionEight" value="4">msgBox("Hello World");<br>
+              <strong>Q5. How do you insert a comment in a CSS file?</strong><br />
+              <input type="radio" id="mc" name="questionFive" value="1" />'
+              this is a comment<br />
+              <input type="radio" id="mc" name="questionFive" value="2" />//
+              this is a comment //<br />
+              <input type="radio" id="mc" name="questionFive" value="3" />//
+              this is a comment<br />
+              <input type="radio" id="mc" name="questionFive" value="4" />/*
+              this is a comment */<br />
+
+              <strong>Q6. Which property is used to change the background
+                color?</strong><br />
+              <input type="radio" id="mc" name="questionSix" value="1" />color<br />
+              <input type="radio" id="mc" name="questionSix" value="2" />
+              background-color<br />
+              <input type="radio" id="mc" name="questionSix" value="3" />bgcolor<br />
+
+              <strong>Q7. Which CSS property is used to change the text color of an
+                element?</strong><br />
+              <input type="radio" id="mc" name="questionSeven" value="1" />fgcolor<br />
+              <input type="radio" id="mc" name="questionSeven" value="2">/>text<br>
+              <input type="radio" id="mc" name="questionSeven" value="3" />color<br />
+
+              <strong>Q8. How do you write "Hello World" in an alert box?</strong><br />
+              <input type="radio" id="mc" name="questionEight" value="1" />alertBox("Hello World");<br />
+              <input type="radio" id="mc" name="questionEight" value="2" />msg("Hello World");<br />
+              <input type="radio" id="mc" name="questionEight" value="3" />alert("Hello World");<br />
+              <input type="radio" id="mc" name="questionEight" value="4" />msgBox("Hello World");<br /></div>
+
+            <div class="col-md-6">
+              <strong>Q9. How do you create a function in JavaScript?</strong><br />
+              <input type="radio" id="mc" name="questionNine" value="1" />function:myFunction()<br />
+              <input type="radio" id="mc" name="questionNine" value="2" />function myFunction()<br />
+              <input type="radio" id="mc" name="questionNine" value="3" />function = myFunction()<br />
+
+              <strong>Q10. How to write an "IF' statement in JavaScript?</strong><br />
+              <input type="radio" id="mc" name="questionTen" value="1" /> if i
+              = 5 then<br />
+              <input type="radio" id="mc" name="questionTen" value="2" />if i
+              == 5 then<br />
+              <input type="radio" id="mc" name="questionTen" value="3" /> if i
+              = 5<br />
+              <input type="radio" id="mc" name="questionTen" value="4" />if (i
+              == 5)<br />
+
+              <strong>Q11. what does DRY stand for?</strong><br />
+              <input type="radio" id="mc" name="questionEleven" value="1" />Don't Repeat Yourself<br />
+              <input type="radio" id="mc" name="questionEleven" value="2" />Drunk Rock Youth<br />
+              <input type="radio" id="mc" name="questionEleven" value="3" />Design Reference Year<br />
+              <input type="radio" id="mc" name="questionEleven" value="4" />Deer Run Youth<br />
+
+              <strong>Q12. Which built-in method calls a function for each element
+                in the array?</strong><br />
+              <input type="radio" id="mc" name="questionTwelve" value="1" />while()<br />
+              <input type="radio" id="mc" name="questionTwelve" value="2" />loop()<br />
+              <input type="radio" id="mc" name="questionTwelve" value="3" />forEach()<br />
+              <input type="radio" id="mc" name="questionTwelve" value="4" />None of the above.<br />
+
+              <strong>Q13. Which of the following is correct about features of
+                JavaScript?</strong><br />
+              <input type="radio" id="mc" name="questionThirteen" value="1" />
+              JavaScript is a lightweight, interpreted programming
+              language.<br />
+              <input type="radio" id="mc" name="questionThirteen" value="2" />JavaScript is designed for creating
+              network-centric
+              applications.<br />
+              <input type="radio" id="mc" name="questionThirteen" value="3" />
+              JavaScript is complementary to and integrated with Java.<br />
+              <input type="radio" id="mc" name="questionThirteen" value="4" />All of the above.<br />
+
+              <strong>Q14.Which built-in method returns the calling string value
+                converted to upper case?</strong><br />
+              <input type="radio" id="mc" name="questionFourteen" value="1" />toUpperCase()<br />
+              <input type="radio" id="mc" name="questionFourteen" value="2" />toUpper()<br />
+              <input type="radio" id="mc" name="questionFourteen" value="3" />
+              changeCase(case)<br />
+              <input type="radio" id="mc" name="questionFourteen" value="4" />None of the above.<br />
+
+              <strong>Q15. Which of the following function of String object returns
+                the primitive value of the specified object.</strong><br />
+              <input type="radio" id="mc" name="questionFifteen" value="1" />toLocaleUpperCase()<br />
+              <input type="radio" id="mc" name="questionFifteen" value="2" />toUpperCase()<br />
+              <input type="radio" id="mc" name="questionFifteen" value="3" />toString()<br />
+              <input type="radio" id="mc" name="questionFifteen" value="4" />valueOf()<br />
+            </div>
+          </div>
+          <input id="button" type="button" value="Get Results!" onclick="check()" />
+        </form>
+        <div id="after_submit">
+          <p id="number_count"></p>
         </div>
-        <div class="col-md-6">
-         <strong>Q9.  How do you create a function in JavaScript?</strong><br>
-          <input type="radio" id="mc" name="questionNine" value="1">function:myFunction()<br>
-         <input type="radio" id="mc" name="questionNine" value="2">function myFunction()<br>
-         <input type="radio" id="mc" name="questionNine" value="3">function = myFunction()<br>
+      </div>
+    </div>
+    </div>
+  </body>
 
-         <strong>Q10.  How to write an "IF' statement in JavaScript?</strong><br>
-          <input type="radio" id="mc" name="questionTen" value="1"> if i = 5 then<br>
-         <input type="radio" id="mc" name="questionTen" value="2">if i == 5 then<br>
-         <input type="radio" id="mc" name="questionTen" value="3"> if i = 5<br>
-         <input type="radio" id="mc" name="questionTen" value="4">if (i == 5)<br>
-
-         <strong>Q11. what does DRY stand for?</strong><br>
-          <input type="radio" id="mc" name="questionEleven" value="1">Don't Repeat Yourself<br>
-         <input type="radio" id="mc" name="questionEleven" value="2">Drunk Rock Youth<br>
-         <input type="radio" id="mc" name="questionEleven" value="3">Design Reference Year<br>
-         <input type="radio" id="mc" name="questionEleven" value="4">Deer Run Youth<br>
-
-         <strong>Q12. Which built-in method calls a function for each element in the array?</strong><br>
-          <input type="radio" id="mc" name="questionTwelve" value="1">while()<br>
-         <input type="radio" id="mc" name="questionTwelve" value="2">loop()<br>
-         <input type="radio" id="mc" name="questionTwelve" value="3">forEach()<br>
-         <input type="radio" id="mc" name="questionTwelve" value="4">None of the above.<br>
-
-
-         <strong>Q13. Which of the following is correct about features of JavaScript?</strong><br>
-          <input type="radio" id="mc" name="questionThirteen" value="1"> JavaScript is a lightweight, interpreted programming language.<br>
-         <input type="radio" id="mc" name="questionThirteen" value="2">JavaScript is designed for creating network-centric applications.<br>
-         <input type="radio" id="mc" name="questionThirteen" value="3">  JavaScript is complementary to and integrated with Java.<br>
-         <input type="radio" id="mc" name="questionThirteen" value="4">All of the above.<br>
-
-         <strong>Q14.Which built-in method returns the calling string value converted to upper case?</strong><br>
-          <input type="radio" id="mc" name="questionFourteen" value="1">toUpperCase()<br>
-         <input type="radio" id="mc" name="questionFourteen" value="2">toUpper()<br>
-         <input type="radio" id="mc" name="questionFourteen" value="3"> changeCase(case)<br>
-         <input type="radio" id="mc" name="questionFourteen" value="4">None of the above.<br>
-
-         <strong>Q15. Which of the following function of String object returns the primitive value of the specified object.</strong><br>
-          <input type="radio" id="mc" name="questionFifteen" value="1">toLocaleUpperCase()<br>
-         <input type="radio" id="mc" name="questionFifteen" value="2">toUpperCase()<br>
-         <input type="radio" id="mc" name="questionFifteen" value="3">toString()<br>
-         <input type="radio" id="mc" name="questionFifteen" value="4">valueOf()<br>
-        </div>
-        </div>
-         <input id="button" type="button" value="Get Results!" onclick="check()">
-         </form>
-         <div id="after_submit">
-             <p id="number_count"></p>
-        </div>
-        </div>
-    </body>
-    </html>
-
+  </html>
+</DOCTYPE>
