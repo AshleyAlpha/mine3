@@ -8,10 +8,10 @@ This is a program called quiz-board. it just contains a multiple choice javascri
 
 # Program Guidance
 
-first of all you have to make sure that you have an internet connection,
-open your web browser then,
-type this link: https://ashleyalpha.github.io/mine3/ to view the website,
-then, start answering questions by just choosing only one.
+- First of all you have to make sure that you have an internet connection,
+- Open your web browser then,
+- Type this link: https://ashleyalpha.github.io/mine3/ to view the website,
+- Then, start answering questions by just choosing only one.
 
 # Technologies Used
 
@@ -21,9 +21,12 @@ then, start answering questions by just choosing only one.
 
 # BDD(Behavior Driven Development)
 
-it determine the wrong and right answers and count your marks.
-Example input: wrong answer among listed then Example output: you get 0 out of set marks.
-example input: right answer among listed then Example output: earned marks out of set marks.
+## #It determine the wrong and right answers and count your marks.
+
+|Example input:| wrong answer among listed then Example output: |you get 0 out of set marks. |
+|example input:|right answer among listed then Example output: |earned marks out of set marks. |
+
+---
 
 # Contacts
 
