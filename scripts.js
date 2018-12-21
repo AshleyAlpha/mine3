@@ -66,6 +66,7 @@ function check() {
 
   document.getElementById("number_count").innerHTML =
     "Your score is: " + count + "/60";
+
   $(document).ready(function() {
     $("#button").hide();
     $("#quiz").hide();
