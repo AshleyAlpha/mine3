@@ -16,9 +16,10 @@
      <div class="container">
      <div class="jumbotron">
      <h1>QUIZ BOARD</h1>
-     <p>This is an online javascript QUIZ <strong>/50pts</strong></p>
+     <p>This is an online javascript QUIZ <strong>/60pts</strong></p>
      <form id="quiz" name="quiz">
-
+        <div class="row">
+        <div class="col-md-6">
          <strong>Q1.what does HTML stands for?</strong> <br>
          <input type="radio" id="mc" name="questionOne" value="1">Home Tool Markup Language<br>
          <input type="radio" id="mc" name="questionOne" value="2">Hyper Text Markup Language<br>
@@ -63,7 +64,8 @@
          <input type="radio" id="mc" name="questionEight" value="2">msg("Hello World");<br>
          <input type="radio" id="mc" name="questionEight" value="3">alert("Hello World");<br>
          <input type="radio" id="mc" name="questionEight" value="4">msgBox("Hello World");<br>
-
+        </div>
+        <div class="col-md-6">
          <strong>Q9.  How do you create a function in JavaScript?</strong><br>
           <input type="radio" id="mc" name="questionNine" value="1">function:myFunction()<br>
          <input type="radio" id="mc" name="questionNine" value="2">function myFunction()<br>
@@ -81,33 +83,33 @@
          <input type="radio" id="mc" name="questionEleven" value="3">Design Reference Year<br>
          <input type="radio" id="mc" name="questionEleven" value="4">Deer Run Youth<br>
 
-         <strong>Q12. what are kigali's districts?</strong><br>
-          <input type="radio" id="mc" name="questionEleven" value="1">kicukiro<br>
-         <input type="radio" id="mc" name="questionEleven" value="2">vancouver<br>
-         <input type="radio" id="mc" name="questionEleven" value="3"> nyarugenge<br>
-         <input type="radio" id="mc" name="questionEleven" value="4">texas<br>
+         <strong>Q12. Which built-in method calls a function for each element in the array?</strong><br>
+          <input type="radio" id="mc" name="questionTwelve" value="1">while()<br>
+         <input type="radio" id="mc" name="questionTwelve" value="2">loop()<br>
+         <input type="radio" id="mc" name="questionTwelve" value="3">forEach()<br>
+         <input type="radio" id="mc" name="questionTwelve" value="4">None of the above.<br>
 
 
-         <strong>Q13. what are kigali's districts?</strong><br>
-          <input type="radio" id="mc" name="questionEleven" value="1">kicukiro<br>
-         <input type="radio" id="mc" name="questionEleven" value="2">vancouver<br>
-         <input type="radio" id="mc" name="questionEleven" value="3"> nyarugenge<br>
-         <input type="radio" id="mc" name="questionEleven" value="4">texas<br>
+         <strong>Q13. Which of the following is correct about features of JavaScript?</strong><br>
+          <input type="radio" id="mc" name="questionThirteen" value="1"> JavaScript is a lightweight, interpreted programming language.<br>
+         <input type="radio" id="mc" name="questionThirteen" value="2">JavaScript is designed for creating network-centric applications.<br>
+         <input type="radio" id="mc" name="questionThirteen" value="3">  JavaScript is complementary to and integrated with Java.<br>
+         <input type="radio" id="mc" name="questionThirteen" value="4">All of the above.<br>
 
-         <strong>Q14. what are kigali's districts?</strong><br>
-          <input type="radio" id="mc" name="questionEleven" value="1">kicukiro<br>
-         <input type="radio" id="mc" name="questionEleven" value="2">vancouver<br>
-         <input type="radio" id="mc" name="questionEleven" value="3"> nyarugenge<br>
-         <input type="radio" id="mc" name="questionEleven" value="4">texas<br>
+         <strong>Q14.Which built-in method returns the calling string value converted to upper case?</strong><br>
+          <input type="radio" id="mc" name="questionFourteen" value="1">toUpperCase()<br>
+         <input type="radio" id="mc" name="questionFourteen" value="2">toUpper()<br>
+         <input type="radio" id="mc" name="questionFourteen" value="3"> changeCase(case)<br>
+         <input type="radio" id="mc" name="questionFourteen" value="4">None of the above.<br>
 
-         <strong>Q15. what are kigali's districts?</strong><br>
-          <input type="radio" id="mc" name="questionEleven" value="1">kicukiro<br>
-         <input type="radio" id="mc" name="questionEleven" value="2">vancouver<br>
-         <input type="radio" id="mc" name="questionEleven" value="3"> nyarugenge<br>
-         <input type="radio" id="mc" name="questionEleven" value="4">texas<br>
-
-
-         <input id="button" type="button" value="check your marks!" onclick="check()">
+         <strong>Q15. Which of the following function of String object returns the primitive value of the specified object.</strong><br>
+          <input type="radio" id="mc" name="questionFifteen" value="1">toLocaleUpperCase()<br>
+         <input type="radio" id="mc" name="questionFifteen" value="2">toUpperCase()<br>
+         <input type="radio" id="mc" name="questionFifteen" value="3">toString()<br>
+         <input type="radio" id="mc" name="questionFifteen" value="4">valueOf()<br>
+        </div>
+        </div>
+         <input id="button" type="button" value="Get Results!" onclick="check()">
          </form>
          <div id="after_submit">
              <p id="number_count"></p>
