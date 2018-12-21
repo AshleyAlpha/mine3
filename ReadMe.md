@@ -21,13 +21,11 @@ This is a program called quiz-board. it just contains a multiple choice javascri
 
 # BDD(Behavior Driven Development)
 
-# It determine the wrong and right answers and count your marks.
+It can determine the wrong and right answers and count your marks.
 
-|-------------:|----------------------------------------------:|-------------------------------|
-|Example input:| wrong answer among listed then Example output:|you get 0 out of set marks. |
-|example input:|right answer among listed then Example output: |earned marks out of set marks. |
+Example Input : wrong answer among listed Example Output: you get 0 out of set marks.
 
----
+Example Input : right answer among listed Example Output: earned marks out of set marks
 
 # Contacts
 
