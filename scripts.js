@@ -42,9 +42,30 @@ function check() {
   if (questionTen == "4") {
     count += 5;
   }
-  if (questionEleven == "1" && questionEleven == "3") {
-    count += 5;
-  }
+  $(".questionEleven").change(function() {
+    var questionElevenbool = true;
+
+    var questionElevenanswers = new Array();
+
+    var questionElevenright = new Array("kicukiro", "nyarugenge");
+
+    $(".questionEleven input:checked").each(function() {
+      questionElevenanswers.push($(this).val());
+    });
+
+    questionElevenanswers.sort();
+
+    questionElevenright.sort();
+
+    if (questionElevenanswers.length == questionElevenright.length) {
+      for (i = 0; i < questionElevenanswers.length; i++) {
+        if (questionElevenanswers[i] == questionElevenright[i]) {
+          count += 5;
+        }
+      }
+    }
+  });
+
   document.getElementById("after_submit").style.visibility = "visible";
 
   document.getElementById("number_count").innerHTML =
