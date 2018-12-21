@@ -48,7 +48,7 @@ function check() {
   document.getElementById("after_submit").style.visibility = "visible";
 
   document.getElementById("number_count").innerHTML =
-    "You got " + count + "/50";
+    "Your score is: " + count + "/50";
 
   $("#button").hide();
   $("#quiz").hide();
