@@ -11,7 +11,7 @@ This is a program called quiz-board. it just contains a multiple choice javascri
 - First of all you have to make sure that you have an internet connection,
 - Open your web browser then,
 - Type this link: https://ashleyalpha.github.io/mine3/ to view the website,
-- Then, start answering questions by just choosing only one.
+- Then, start answering questions. It is multiple choice questions. 
 
 # Technologies Used
 
